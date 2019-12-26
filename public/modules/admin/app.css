@@ -1,0 +1,30 @@
+.dataTable th a {
+    display: block;
+    border: hidden;
+    position: relative;
+    color: #333;
+    padding-right: 20px;
+}
+
+.dataTable th a.sort-link:after {
+    font-family: "Glyphicons Halflings";
+    opacity:0.2;
+    content:"\e150";
+    position: absolute;
+    right: 0px;
+}
+
+.dataTable th a.sort-asc:after {
+    content: "\e155";
+    opacity: 0.5;
+}
+
+.dataTable th a.sort-desc:after {
+    content: "\e156";
+    opacity: 0.5;
+}
+
+.form-group .radio label {
+    padding-left: 0px;
+    padding-right: 20px;
+}
